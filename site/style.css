@@ -11,10 +11,16 @@ h3 {
 
 h2 {
     font-size: 72px;
+    text-align: center;
 }
 
-h4{
+h4 {
+    font-size: 32px;
+}
 
+.bodyOtherText {
+    font-size: 20px;
+    font-weight: lighter;
 }
 
 #header h2 {
@@ -156,43 +162,45 @@ h1 {
     border-radius: 10px;
 }
 
-#vidileno2{
+#vidileno2 {
     padding-left: 1%;
     padding-right: 1%;
     background-color: ff9a88;
     border-radius: 10px;
 }
 
-#vidileno3{
+#vidileno3 {
     padding-left: 1%;
     padding-right: 1%;
     background-color: af5bfc;
     border-radius: 10px;
 }
 
-#Payments{
+#Payments {
     margin-left: 6%;
     margin-right: 1%;
     margin-top: 2%;
     padding-bottom: 1.5%;
 }
 
-#Payments img{
-    margin-top:3%;
+#Payments img {
+    margin-top: 3%;
 }
 
-#Chat{
+#Chat {
     margin-left: 6%;
     margin-top: 1.5%;
 }
 
-#Manage img{
+#Manage img {
     margin-left: 15%;
 }
-#Chat img{
+
+#Chat img {
     padding-top: 1%;
     margin-left: 29%;
 }
+
 .Produ {
     background-color: 202a36;
     width: 40%;
@@ -200,10 +208,90 @@ h1 {
     padding-left: 1.5%;
     padding-top: 1.5%;
 }
-.Produ h4{
-    font-size: 20px;
-    font-weight: lighter;
-}
-.Produ h3{
+
+.Produ h3 {
     display: inline-block;
+}
+
+#HIWF {
+    margin-top: 1.5%;
+}
+
+.HIWFbut {
+    margin-top: 1%;
+    width: 10%;
+    height: 5%;
+}
+
+#butGroupCreators {
+    border-radius: 0px;
+    margin-left: 40%;
+    background-color: af5bfc;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+#butGroupMembers{
+    color: white;
+    background-color: black;
+    font-size: 22px;
+    font-weight: bold;
+    border-width: 1px;
+    border-color: white;
+}
+#Punkts{
+    margin-left: 10%;
+    width: 50%;
+}
+#Punkts h4{
+    margin-top: 6%;
+    margin-left: 3.5%;
+}
+#Punkts h6{
+    margin-left: 3.5%;
+}
+.Punkts img{
+    position: absolute;
+    left: 7%;
+    top: 252.6%;
+}
+#img3{
+    top:261%;
+}
+#img4{
+    top:269.5%;
+}
+#img1{
+    position: absolute;
+    top:239%;
+    left: 6%;
+}
+#GroupInfo{
+    background-color: 1e2834;
+    width: 50%;
+    padding: 3%;
+    display: inline-block;
+}
+#GroupInfo h4{
+    color: a7b1bb;
+}
+#HIWFdivs{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.TextGroupInfo{
+    color: 96a0aa;
+    font-size: 17px;
+    margin-top: 2%;
+    margin-bottom: 0.5%;
+}
+#GroupInfo input{
+    color: 2e3a48;
+    width: 35%;
+    height: 12%;
+}
+#ssulkaGroupInfo{
+    margin-left: 27%;
+    color: black;
 }
