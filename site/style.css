@@ -244,28 +244,26 @@ h1 {
     width: 50%;
 }
 #Punkts h4{
-    margin-top: 6%;
+    margin-top: 2%;
     margin-left: 3.5%;
 }
 #Punkts h6{
     margin-left: 3.5%;
 }
+
+.Punkts{
+    display: flex;
+    margin-top: 2%;
+}
+
+#Punktsh6{
+    
+}
+
 .Punkts img{
-    position: absolute;
-    left: 7%;
-    top: 252.6%;
+    width: 8%;
 }
-#img3{
-    top:261%;
-}
-#img4{
-    top:269.5%;
-}
-#img1{
-    position: absolute;
-    top:239%;
-    left: 6%;
-}
+
 #GroupInfo{
     background-color: 1e2834;
     width: 50%;
@@ -294,4 +292,8 @@ h1 {
 #ssulkaGroupInfo{
     margin-left: 27%;
     color: black;
+}
+#CYGN{
+    margin-top: 100%;
+    background: linear-gradient(to right, #634862, rgb(47, 47, 47));
 }
