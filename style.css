@@ -111,22 +111,24 @@ h1 {
     border: 0px;
     color: black;
     background-color: white;
-    font-size: 30px;
-    border-radius: 25px;
-    padding: 0.5%;
-    margin-top: 1%;
-    position: absolute;
-    left: 5%;
+    font-size: 22px;
+    padding: 0.8%;
+    font-weight: bolder;
+    border-radius: 38px;
+    margin-top: 2%;
+    margin-left: 5%;
 }
 
 .telephone {
     position: absolute;
     right: 2%;
     top: 15%;
+    width: 40%;
     order: 1;
 }
 
 #group20 {
+    width: 20%;
     z-index: 1;
     top: 9%;
     right: 12%;
@@ -145,13 +147,13 @@ h1 {
 }
 
 #NeDoVisual {
-    position: absolute;
-    top: 80%;
-    left: 29.2%;
+    margin-top: 11%;
+    margin-left:30%;
+    width: 40%;
 }
 
 #Products {
-    margin-top: 45%;
+    margin-top: 5%;
     width: 100%;
 }
 
@@ -163,21 +165,33 @@ h1 {
 #vidileno1 {
     padding-left: 1%;
     padding-right: 1%;
-    background-color: 0092ff;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    background-color: rgb(0, 146, 255);
+    box-shadow: 0px 0px 20px 1px rgb(0, 146, 255);
+    color: black;
     border-radius: 10px;
 }
 
 #vidileno2 {
     padding-left: 1%;
     padding-right: 1%;
-    background-color: ff9a88;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    color: black;
+    background-color: rgb(255, 154, 136);
+    box-shadow: 0px 0px 20px 1px rgb(255, 154, 136);
     border-radius: 10px;
 }
 
 #vidileno3 {
     padding-left: 1%;
     padding-right: 1%;
-    background-color: af5bfc;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    color: black;
+    background-color: rgb(175, 91, 252);
+    box-shadow: 0px 0px 20px 1px rgb(175, 91, 252);
     border-radius: 10px;
 }
 
@@ -212,6 +226,7 @@ h1 {
     display: inline-block;
     padding-left: 1.5%;
     padding-top: 1.5%;
+    border-radius: 7px;
 }
 
 .Produ h3 {
@@ -219,7 +234,7 @@ h1 {
 }
 
 #HIWF {
-    margin-top: 1.5%;
+    margin-top: 5%;
 }
 
 .HIWFbut {
@@ -229,12 +244,16 @@ h1 {
 }
 
 #butGroupCreators {
-    border-radius: 0px;
-    margin-left: 40%;
-    background-color: af5bfc;
+    border-radius: 5px;
+    margin-left: 39%;
+    background-color: rgb(175, 91, 252);
     color: black;
     font-size: 22px;
     font-weight: bold;
+    border: none;
+    margin-right: 2%;
+    box-shadow: 0px 0px 20px 1px rgb(175, 91, 252);
+    
 }
 
 #butGroupMembers {
@@ -244,6 +263,7 @@ h1 {
     font-weight: bold;
     border-width: 1px;
     border-color: white;
+    border-radius: 5px;
 }
 
 #Punkts {
@@ -279,6 +299,10 @@ h1 {
     margin-right: 10%;
     padding: 3%;
     display: inline-block;
+    margin-left: 2%;
+    border: solid;
+    border-width: 1px;
+    border-color: gray;
 }
 
 #GroupInfo h4 {
@@ -311,8 +335,9 @@ h1 {
 
 #ssulkaGroupInfo {
     margin-top: 5%;
-    margin-left: 57%;
+    margin-left: 0%;
     color: black;
+    font-size: 15px;
 }
 
 #CYGN {
@@ -372,6 +397,7 @@ h1 {
     width: 80%;
     margin-left: 10%;
     justify-content: space-around;
+    padding-top: 3.5%;
 }
 
 .calloutDivs {
@@ -408,10 +434,13 @@ h1 {
 
 #features h5 {
     font-size: 13px;
+    margin-top: 5%;
+    margin-bottom: 1%;
 }
 
 #features h2 {
     text-align: left;
+    line-height: 0.82;
 }
 
 #butFlexibleSub {
@@ -510,6 +539,19 @@ h1 {
     margin-bottom: 2%;
 }
 
-#twiter{
-    
+#twiter {
+    display: flex;
+    margin-top: 2%;
+}
+
+#twiter img {
+    width: 6%;
+    height: 6%;
+}
+
+#twiter h3 {
+    color: rgb(13, 153, 255);
+    font-size: 20px;
+    margin-left: 1%;
+    font-weight: normal;
 }
