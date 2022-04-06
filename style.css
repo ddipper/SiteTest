@@ -402,7 +402,7 @@ h1 {
     justify-content: space-around;
 }
 
-#features{
+#features {
     margin-top: 2%;
 }
 
@@ -410,29 +410,106 @@ h1 {
     font-size: 13px;
 }
 
-#features h2{
+#features h2 {
     text-align: left;
 }
 
-#butFlexibleSub{
+#butFlexibleSub {
     margin-top: 5%;
     background-color: rgb(0, 146, 255);
     border: none;
-    width: 43%;
+    width: 44%;
     height: 7%;
     font-size: 17px;
     font-weight: bolder;
     box-shadow: 0px 0px 20px 1px rgb(0, 146, 255);
     color: black;
+    border-radius: 5px;
 }
 
-#butFlexibleGroup{
+#butFlexibleGroup {
     background-color: rgb(0, 0, 0);
     border: solid;
     border-width: 1px;
-    width: 30%;
+    width: 35%;
     height: 7%;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: bolder;
     margin-left: 2%;
+    border-radius: 5px;
+}
+
+#import img {
+    width: 50%;
+}
+
+#import {
+    background-color: rgb(32, 42, 54);
+    margin-top: 5%;
+    width: 86%;
+    justify-content: space-around;
+    padding: 7%;
+    display: flex;
+}
+
+#importText {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    height: 100%;
+}
+
+#import h4 {
+    margin-top: 3%;
+    margin-bottom: 8%;
+}
+
+#import h3 {
+    font-size: 48px;
+}
+
+#import h5 {
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+#amazing {
+    padding: 5%;
+}
+
+.twitsDiv {
+    border: solid;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 15px;
+    width: 30%;
+    padding: 1%;
+}
+
+#amazingTwits {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.twitTop {
+    display: flex;
+}
+
+#FIO {
+    margin-left: 3%;
+}
+
+#FIO h6 {
+    font-size: 19px;
+    font-weight: lighter;
+}
+
+.twitsDiv h4 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#twiter{
+    
 }
