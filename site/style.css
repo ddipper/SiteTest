@@ -23,6 +23,11 @@ h4 {
     font-weight: lighter;
 }
 
+h5 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 #header h2 {
     font-size: 24px;
 }
@@ -142,7 +147,7 @@ h1 {
 #NeDoVisual {
     position: absolute;
     top: 80%;
-    left: 28%;
+    left: 29.2%;
 }
 
 #Products {
@@ -331,11 +336,12 @@ h1 {
     font-weight: 500;
 }
 
-#DogYourName{
+#DogYourName {
     color: rgb(82, 172, 183);
     font-size: 14px;
 }
-#butCreatGroup{
+
+#butCreatGroup {
     background-color: rgb(194, 193, 225);
     color: black;
     margin-top: 5%;
@@ -346,17 +352,52 @@ h1 {
     font-weight: bold;
 }
 
-#CreateYourGroupNow{
+#CreateYourGroupNow {
     align-self: center;
 }
 
-#CreateYourGrouph4{
+#CreateYourGrouph4 {
     font-size: 50px;
-    font-style:normal;
+    font-style: normal;
     color: rgb(167, 177, 187);
     font-weight: bolder;
 }
 
-#CreateYourGroupNow .bodyOtherText{
+#CreateYourGroupNow .bodyOtherText {
     margin-left: 0.5%;
+}
+
+#callout {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    justify-content: space-around;
+}
+
+.calloutDivs {
+    border: solid;
+    border-color: grey;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 2%;
+    margin-top: 2%;
+    border-radius: 15px;
+}
+
+#calloustBlocks {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.calloutDivs img {
+    width: 15%;
+}
+
+.divBlockCallout {
+    display: flex;
+    justify-content: space-around;
 }
