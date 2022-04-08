@@ -101,6 +101,7 @@ head {
 
 body {
     background-color: 181f27;
+    min-width: 1900px;
 }
 
 h1 {
