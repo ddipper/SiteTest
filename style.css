@@ -5,7 +5,7 @@
     color: white;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -42,7 +42,8 @@ h5 {
     padding-top: 0.5%;
     background-color: 232730;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 2%;
 }
 
 head {
@@ -52,7 +53,7 @@ head {
 }
 
 #headerText {
-    width: 20%;
+    width:  300px;
     display: flex;
     justify-content: space-between;
 }
@@ -64,7 +65,7 @@ head {
     font-size: 20px;
 }*/
 
-#header a{
+#header a {
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: normal;
@@ -72,25 +73,25 @@ head {
 }
 
 #headerBut {
-    width: 6%;
+    width: 185px;
     display: flex;
     justify-content: space-between;
 }
 
 #LogIn {
     margin-bottom: 5%;
-    padding: 5%;
+    padding: 10px;
     border: 0px;
     background-color: 36404C;
     color: white;
     border-radius: 25px;
-    width: 45%;
+    width: 85px;
 }
 
 #SignUp {
-    width: 50%;
+    width: 85px;
     margin-bottom: 5%;
-    padding: 5%;
+    padding: 10px;
     padding-right: 2%;
     padding-left: 2%;
     background-color: 56B5C1;
@@ -101,7 +102,7 @@ head {
 
 body {
     background-color: 181f27;
-    min-width: 1900px;
+    /*min-width: 1900px;*/
 }
 
 h1 {
@@ -226,7 +227,7 @@ h1 {
     margin-top: 1.5%;
 }
 
-#Manage{
+#Manage {
     padding-right: 1%;
 }
 
@@ -295,8 +296,8 @@ h1 {
     flex-direction: column;
 }
 
-#CreateText{
-    color:white;
+#CreateText {
+    color: white;
 }
 
 #Punkts h4 {
@@ -675,7 +676,7 @@ footer h3 {
     justify-content: space-around;
 }
 
-#footerBot{
+#footerBot {
     display: flex;
     justify-content: space-between;
     padding-left: 4%;
@@ -683,13 +684,13 @@ footer h3 {
     padding-top: 2.5%;
 }
 
-#footerBot img{
+#footerBot img {
     width: 10%;
     height: 5%;
     margin-top: 3.7%;
 }
 
-#headerText a:hover{
+#headerText a:hover {
     color: rgb(62, 215, 235);
     transition-timing-function: linear;
     transition-duration: 200ms;
@@ -698,13 +699,13 @@ footer h3 {
     /*background-color: #5488af;*/
 }
 
-#headerText a:not(:hover){
+#headerText a:not(:hover) {
     transition-timing-function: linear;
     transition-duration: 200ms;
 }
 
-#LogIn:hover{
-    cursor:pointer;
+#LogIn:hover {
+    cursor: pointer;
     color: rgb(62, 215, 235);
     background-color: rgb(31, 36, 42);
     transition-timing-function: linear;
@@ -712,26 +713,26 @@ footer h3 {
     box-shadow: 0px 0px 20px 1px rgb(31, 36, 42);
 }
 
-#LogIn:not(:hover){
+#LogIn:not(:hover) {
     transition-timing-function: linear;
     transition-duration: 200ms;
 }
 
-#SignUp:hover{
+#SignUp:hover {
     background-color: rgb(127, 112, 185);
     color: rgb(50, 39, 60);
     transition-timing-function: linear;
     transition-duration: 200ms;
-    cursor:pointer;
+    cursor: pointer;
     box-shadow: 0px 0px 20px 1px rgb(127, 112, 185);
 }
 
-#SignUp:not(:hover){
+#SignUp:not(:hover) {
     transition-timing-function: linear;
     transition-duration: 200ms;
 }
 
-#GetStarted:hover{
+#GetStarted:hover {
     transition-timing-function: linear;
     transition-duration: 200ms;
     background-color: rgb(62, 215, 235);
@@ -740,27 +741,27 @@ footer h3 {
     box-shadow: 0px 0px 20px 1px rgb(62, 215, 235);
 }
 
-#GetStarted:not(:hover){
+#GetStarted:not(:hover) {
     transition-timing-function: linear;
     transition-duration: 200ms;
-    
+
 }
 
-#butGroupCreators:hover{
+#butGroupCreators:hover {
     transition-timing-function: linear;
     transition-duration: 200ms;
     cursor: pointer;
     background-color: rgb(252, 91, 161);
     box-shadow: 0px 0px 20px 1px rgb(252, 91, 161);
-    color: rgb(50,39,60);
+    color: rgb(50, 39, 60);
 }
 
-#butGroupCreators:not(:hover){
+#butGroupCreators:not(:hover) {
     transition-timing-function: linear;
     transition-duration: 200ms;
 }
 
-#butGroupMembers:hover{
+#butGroupMembers:hover {
     transition-timing-function: linear;
     transition-duration: 200ms;
     border-width: 3px;
@@ -768,24 +769,24 @@ footer h3 {
     box-shadow: 0px 0px 20px 1px white;
 }
 
-#butGroupMembers:not(:hover){
+#butGroupMembers:not(:hover) {
     transition-timing-function: linear;
     transition-duration: 200ms;
 }
 
-#ssulkaGroupInfo:hover{
+#ssulkaGroupInfo:hover {
     transition-timing-function: linear;
     transition-duration: 200ms;
     color: gray;
     /*text-shadow: 1px -0.5px 1px white;*/
 }
 
-#ssulkaGroupInfo:not(:hover){
+#ssulkaGroupInfo:not(:hover) {
     transition-timing-function: linear;
     transition-duration: 200ms;
 }
 
-#butCreatGroup:hover{
+#butCreatGroup:hover {
     transition-timing-function: linear;
     transition-duration: 200ms;
     background-color: rgb(62, 215, 235);
@@ -794,7 +795,7 @@ footer h3 {
     box-shadow: 0px 0px 20px 1px rgb(62, 215, 235);
 }
 
-#butCreatGroup:not(:hover){
+#butCreatGroup:not(:hover) {
     transition-timing-function: linear;
     transition-duration: 200ms;
 }
@@ -806,26 +807,26 @@ footer h3 {
     color: rgb(62, 215, 235);
 }
 
-#features a:not(:hover){
+#features a:not(:hover) {
     transition-timing-function: linear;
     transition-duration: 200ms;
 }
 
-#butFlexibleSub:hover{
+#butFlexibleSub:hover {
     transition-timing-function: linear;
     transition-duration: 200ms;
     background-color: rgb(175, 91, 252);
     box-shadow: 0px 0px 20px 1px rgb(175, 91, 252);
     cursor: pointer;
-    color: rgb(50,39,60);
+    color: rgb(50, 39, 60);
 }
 
-#butFlexibleSub:not(:hover){
+#butFlexibleSub:not(:hover) {
     transition-timing-function: linear;
     transition-duration: 200ms;
 }
 
-#butFlexibleGroup:hover{
+#butFlexibleGroup:hover {
     transition-timing-function: linear;
     transition-duration: 200ms;
     border-width: 3px;
@@ -833,45 +834,58 @@ footer h3 {
     box-shadow: 0px 0px 20px 1px white;
 }
 
-#butFlexibleGroup:not(:hover){
+#butFlexibleGroup:not(:hover) {
     transition-timing-function: linear;
     transition-duration: 200ms;
 }
 
-#importText h5:hover{
+#importText h5:hover {
     transition-timing-function: linear;
     transition-duration: 200ms;
     cursor: pointer;
     color: rgb(62, 215, 235);
 }
 
-#importText h5:not(:hover){
+#importText h5:not(:hover) {
     transition-timing-function: linear;
     transition-duration: 200ms;
 }
 
-#StartNow button:hover{
+#StartNow button:hover {
     transition-timing-function: linear;
     transition-duration: 200ms;
     background-color: rgb(175, 91, 252);
     box-shadow: 0px 0px 20px 1px rgb(175, 91, 252);
     cursor: pointer;
-    color: rgb(50,39,60);
+    color: rgb(50, 39, 60);
 }
 
-#StartNow button:not(:hover){
+#StartNow button:not(:hover) {
     transition-timing-function: linear;
     transition-duration: 200ms;
 }
 
-footer a:hover{
+footer a:hover {
     transition-timing-function: linear;
     transition-duration: 200ms;
     color: white;
     text-shadow: 1px -1px 1px white;
 }
 
-footer a:not(:hover){
+footer a:not(:hover) {
     transition-timing-function: linear;
     transition-duration: 200ms;
+}
+
+@media  (max-width:425px){
+    #Products h2{
+        font-size: 48px;
+    }
+    .telephone{
+        display: none;
+    }
+    #bgBodyHead{
+        display: none;
+    }
+
 }
