@@ -628,14 +628,16 @@ h1 {
     height: 50%;
     margin-left: 5%;
     border-radius: 30px;
-    font-size: 100%;
+    font-size: 18px;
     color: black;
+    font-weight: normal;
 }
 
-footer h4 {
+footer a {
     font-size: 14pt;
     font-weight: lighter;
     margin-top: 5%;
+    color: rgb(150, 160, 171);
 }
 
 footer {
@@ -801,4 +803,74 @@ footer h3 {
     transition-duration: 200ms;
     cursor: pointer;
     color: rgb(62, 215, 235);
+}
+
+#features a:not(:hover){
+    transition-timing-function: linear;
+    transition-duration: 200ms;
+}
+
+#butFlexibleSub:hover{
+    transition-timing-function: linear;
+    transition-duration: 200ms;
+    background-color: rgb(175, 91, 252);
+    box-shadow: 0px 0px 20px 1px rgb(175, 91, 252);
+    cursor: pointer;
+    color: rgb(50,39,60);
+}
+
+#butFlexibleSub:not(:hover){
+    transition-timing-function: linear;
+    transition-duration: 200ms;
+}
+
+#butFlexibleGroup:hover{
+    transition-timing-function: linear;
+    transition-duration: 200ms;
+    border-width: 3px;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 1px white;
+}
+
+#butFlexibleGroup:not(:hover){
+    transition-timing-function: linear;
+    transition-duration: 200ms;
+}
+
+#importText h5:hover{
+    transition-timing-function: linear;
+    transition-duration: 200ms;
+    cursor: pointer;
+    color: rgb(62, 215, 235);
+}
+
+#importText h5:not(:hover){
+    transition-timing-function: linear;
+    transition-duration: 200ms;
+}
+
+#StartNow button:hover{
+    transition-timing-function: linear;
+    transition-duration: 200ms;
+    background-color: rgb(175, 91, 252);
+    box-shadow: 0px 0px 20px 1px rgb(175, 91, 252);
+    cursor: pointer;
+    color: rgb(50,39,60);
+}
+
+#StartNow button:not(:hover){
+    transition-timing-function: linear;
+    transition-duration: 200ms;
+}
+
+footer a:hover{
+    transition-timing-function: linear;
+    transition-duration: 200ms;
+    color: white;
+    text-shadow: 1px -1px 1px white;
+}
+
+footer a:not(:hover){
+    transition-timing-function: linear;
+    transition-duration: 200ms;
 }
