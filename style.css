@@ -53,7 +53,7 @@ head {
 }
 
 #headerText {
-    width:  300px;
+    width: 300px;
     display: flex;
     justify-content: space-between;
 }
@@ -252,7 +252,7 @@ h1 {
     border-radius: 7px;
 }
 
-#Prod{
+#Prod {
     display: flex;
 }
 
@@ -280,6 +280,7 @@ h1 {
     border: none;
     margin-right: 2%;
     width: 185px;
+    height: 48px;
     box-shadow: 0px 0px 20px 1px rgb(175, 91, 252);
 
 }
@@ -293,6 +294,7 @@ h1 {
     border-color: white;
     border-radius: 5px;
     width: 185px;
+    height: 48px;
 }
 
 #Punkts {
@@ -406,7 +408,8 @@ h1 {
     color: black;
     margin-top: 5%;
     padding: 2%;
-    width: 30%;
+    width: 115px;
+    height: 35px;
     border-radius: 25px;
     font-size: 16px;
     font-weight: normal;
@@ -487,8 +490,8 @@ h1 {
     margin-top: 5%;
     background-color: rgb(0, 146, 255);
     border: none;
-    width: 44%;
-    height: 7%;
+    width: 180px;
+    height: 41px;
     font-size: 17px;
     font-weight: bolder;
     box-shadow: 0px 0px 20px 1px rgb(0, 146, 255);
@@ -498,10 +501,11 @@ h1 {
 
 #butFlexibleGroup {
     background-color: rgb(0, 0, 0);
+    margin-top: 5%;
     border: solid;
     border-width: 1px;
-    width: 35%;
-    height: 7%;
+    width: 180px;
+    height: 41px;
     font-size: 18px;
     font-weight: bolder;
     margin-left: 2%;
@@ -623,17 +627,15 @@ h1 {
 }
 
 #StartNow input {
-    height: 50%;
-    width: 50%;
-    margin-top: 5%;
+    margin-top: 4%;
     margin-bottom: 4%;
 }
 
 #StartNow button {
     background-color: rgb(86, 181, 193);
     border: none;
-    width: 20%;
-    height: 50%;
+    width: 115px;
+    height: 40px;
     margin-left: 5%;
     border-radius: 30px;
     font-size: 18px;
@@ -884,83 +886,96 @@ footer a:not(:hover) {
 }
 
 /*750 px
-.Produ display: block;*/
+.Produ display: block;*//*                                                                              @Media*/
 
-@media  (max-width:750px){
-    #Prod{
+@media (max-width:750px) {
+    #Prod {
         flex-direction: column;
         align-items: center;
         width: 100%;
     }
 
-    #Products{
+    #Products {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .Produ{
+    .Produ {
         width: 75%;
         padding: 0%;
         padding-left: 5%;
         padding-top: 5%;
         padding-right: 10%;
-        margin-left: 0 !important;                                    /*!important*/
+        margin-left: 0 !important;
+        /*!important*/
     }
-    
-    #Manage{
+
+    #Manage {
         padding-right: 10%;
         margin-top: 1.5%;
     }
 }
-@media  (max-width:425px){
-    #headerBut{
+
+@media (max-width:425px) {
+
+    #headerBut {
         display: none;
     }
 
-    #Products h2{
+    #Products h2 {
         font-size: 48px;
     }
-    .telephone{
+
+    .telephone {
         display: none;
     }
-    #bgBodyHead{
+
+    #bgBodyHead {
         display: none;
     }
-    h1{
+
+    h1 {
         font-size: 50px;
         text-align: center;
     }
+
     h3 {
         font-size: 30px;
     }
-    
+
     h2 {
         font-size: 48px;
         /*72px*/
         text-align: center;
     }
-    
+
     h4 {
         font-size: 26px;
     }
+
     .bodyOtherText {
         font-size: 20px;
         font-weight: lighter;
     }
-    #CreateYourGrouph4{
+
+    #CreateYourGrouph4 {
         font-size: 26px;
     }
-    #bodyHeadH4{
+
+    #bodyHeadH4 {
         text-align: center;
     }
-    #bodyHead{
+
+    #bodyHead {
         text-align: center;
     }
-    #headerText a{
+
+    #headerText a {
         font-size: 18px;
     }
-    .Produ{
+
+    .Produ {
         width: 300px;
         margin-left: 6%;
         padding: 0%;
@@ -968,92 +983,136 @@ footer a:not(:hover) {
         padding-top: 5%;
         padding-right: 10%;
     }
-    #Manage{
+
+    #Manage {
         padding-right: 10%;
         margin-top: 1.5%;
     }
-    #butGroupCreators{
+
+    #butGroupCreators {
         margin: 0px;
         margin-left: 7%;
         margin-top: 4%;
         margin-bottom: 5%;
     }
-    #HIWFdivs{
+
+    #HIWFdivs {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    #amazingTwits{
+
+    #amazingTwits {
         flex-direction: column;
         align-items: center;
     }
-    .twitsDiv{
+
+    .twitsDiv {
         width: 80%;
         margin-top: 2%;
     }
-    #import{
+
+    #import {
         flex-direction: column-reverse;
         align-items: center;
     }
-    #import img{
+
+    #import img {
         width: 70%;
         margin-top: 2%;
     }
-    .divBlockCallout{
+
+    .divBlockCallout {
         flex-direction: column;
         align-items: center;
     }
-    #callout{
+
+    #callout {
         flex-direction: column;
         align-items: center;
     }
-    .calloutDivs{
+
+    .calloutDivs {
         width: 80%;
         margin-top: 2%;
     }
-    #features{
+
+    #features {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    #CYGN{
+
+    #CYGN {
         flex-direction: column-reverse;
         align-items: center;
     }
-    #YourGroupName{
+
+    #YourGroupName {
         width: 80%;
         margin-top: 5%;
     }
-    #bodyFooter{
+
+    #bodyFooter {
         flex-direction: column-reverse;
         align-items: center;
     }
-    #logo1{
+
+    #logo1 {
         width: 80%;
     }
-    #butFlexibleGroup{
+
+    #butFlexibleGroup {
         display: inline-block;
     }
-    #butFlexibleSub{
+
+    #butFlexibleSub {
         display: inline-block;
     }
-    #GroupInfo{
+
+    #GroupInfo {
         width: 80%;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 2%;
     }
-    #HIWF{
+
+    #HIWF {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    #butGroupCreators {
+        margin-left: 0px;
+    }
+
+    #features h2 {
+        text-align: center;
+    }
+
+    #features a {
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    #StartNow div {
+        display: flex;
+        align-items: center;
+    }
+
+    #Punkts {
+        width: 100%;
     }
 }
 
 /*1)Паддинги в пикселях кнопки ГЕТ СТАРТ --- READY
 2)Ширину картинка пункт 1-4  пискелях (щас она в процентах)  --- 50% Reade (Номер 3 деформируется)
-3)1,2,3 должны прилипать к левому краю
-4)ЧУТЬ ЧУТЬ УВЕЛИЧИТТЬ ИНПУТЫ на процентов 25 (это не намек на проценты)
-5)кнопки одинакого размера
-6)Фиаучерс каллаут по центру
-7)почти футер Блок с инпутом и кнопкой 
+3)1,2,3 должны прилипать к левому краю                  --Ready
+4)ЧУТЬ ЧУТЬ УВЕЛИЧИТТЬ ИНПУТЫ на процентов 25 (это не намек на проценты)   --Ready
+5)кнопки одинакого размера                  --Ready
+6)Фиаучерс каллаут по центру                --Ready
+7)почти футер Блок с инпутом и кнопкой      --Ready
 <div>
 display: flex;
 align-items: center;
