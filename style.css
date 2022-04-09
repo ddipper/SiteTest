@@ -883,7 +883,41 @@ footer a:not(:hover) {
     transition-duration: 200ms;
 }
 
+/*750 px
+.Produ display: block;*/
+
+@media  (max-width:750px){
+    #Prod{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    #Products{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Produ{
+        width: 75%;
+        padding: 0%;
+        padding-left: 5%;
+        padding-top: 5%;
+        padding-right: 10%;
+        margin-left: 0 !important;                                    /*!important*/
+    }
+    
+    #Manage{
+        padding-right: 10%;
+        margin-top: 1.5%;
+    }
+}
 @media  (max-width:425px){
+    #headerBut{
+        display: none;
+    }
+
     #Products h2{
         font-size: 48px;
     }
@@ -926,11 +960,8 @@ footer a:not(:hover) {
     #headerText a{
         font-size: 18px;
     }
-    #Prod{
-        display:block;
-    }
     .Produ{
-        width: 350px;
+        width: 300px;
         margin-left: 6%;
         padding: 0%;
         padding-left: 5%;
@@ -950,5 +981,85 @@ footer a:not(:hover) {
     #HIWFdivs{
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+    #amazingTwits{
+        flex-direction: column;
+        align-items: center;
+    }
+    .twitsDiv{
+        width: 80%;
+        margin-top: 2%;
+    }
+    #import{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    #import img{
+        width: 70%;
+        margin-top: 2%;
+    }
+    .divBlockCallout{
+        flex-direction: column;
+        align-items: center;
+    }
+    #callout{
+        flex-direction: column;
+        align-items: center;
+    }
+    .calloutDivs{
+        width: 80%;
+        margin-top: 2%;
+    }
+    #features{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #CYGN{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    #YourGroupName{
+        width: 80%;
+        margin-top: 5%;
+    }
+    #bodyFooter{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    #logo1{
+        width: 80%;
+    }
+    #butFlexibleGroup{
+        display: inline-block;
+    }
+    #butFlexibleSub{
+        display: inline-block;
+    }
+    #GroupInfo{
+        width: 80%;
+    }
+    #HIWF{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
+
+/*1)Паддинги в пикселях кнопки ГЕТ СТАРТ
+2)Ширину картинка пункт 1-4  пискелях (щас она в процентах)
+3)1,2,3 должны прилипать к левому краю
+4)ЧУТЬ ЧУТЬ УВЕЛИЧИТТЬ ИНПУТЫ на процентов 25 (это не намек на проценты)
+5)кнопки одинакого размера
+6)Фиаучерс каллаут по центру
+7)почти футер Блок с инпутом и кнопкой 
+<div>
+display: flex;
+align-items: center;
+
+<buttont> +width
+
+
+На мобилке одинаковые отступы слева и справа
+*/
