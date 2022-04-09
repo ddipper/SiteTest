@@ -127,7 +127,7 @@ h1 {
     color: black;
     background-color: white;
     font-size: 22px;
-    padding: 0.8%;
+    padding: 12px;
     font-weight: bolder;
     border-radius: 38px;
     margin-top: 2%;
@@ -323,7 +323,7 @@ h1 {
 }
 
 .Punkts img {
-    width: 8%;
+    width: 60px;
 }
 
 #GroupInfo {
@@ -360,8 +360,8 @@ h1 {
 
 .inputInfo {
     color: 2e3a48;
-    width: 35%;
-    height: 12%;
+    width: 200px;
+    height: 30px;
     background-color: rgb(46, 58, 72);
     border-style: none;
     border-radius: 7px;
@@ -1047,8 +1047,8 @@ footer a:not(:hover) {
     }
 }
 
-/*1)Паддинги в пикселях кнопки ГЕТ СТАРТ
-2)Ширину картинка пункт 1-4  пискелях (щас она в процентах)
+/*1)Паддинги в пикселях кнопки ГЕТ СТАРТ --- READY
+2)Ширину картинка пункт 1-4  пискелях (щас она в процентах)  --- 50% Reade (Номер 3 деформируется)
 3)1,2,3 должны прилипать к левому краю
 4)ЧУТЬ ЧУТЬ УВЕЛИЧИТТЬ ИНПУТЫ на процентов 25 (это не намек на проценты)
 5)кнопки одинакого размера
