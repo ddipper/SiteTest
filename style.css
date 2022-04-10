@@ -888,7 +888,7 @@ footer a:not(:hover) {
 /*750 px
 .Produ display: block;*//*                                                                              @Media*/
 
-@media (max-width:750px) {
+@media (max-width:1024px) {
     #Prod {
         flex-direction: column;
         align-items: center;
@@ -917,7 +917,7 @@ footer a:not(:hover) {
     }
 }
 
-@media (max-width:430px) {
+@media (max-width:1024px) {
 
     #headerBut {
         display: none;
@@ -961,6 +961,7 @@ footer a:not(:hover) {
 
     #CreateYourGrouph4 {
         font-size: 26px;
+        text-align: center;
     }
 
     #bodyHeadH4 {
@@ -1010,6 +1011,7 @@ footer a:not(:hover) {
     .twitsDiv {
         width: 80%;
         margin-top: 2%;
+        padding: 5%;
     }
 
     #twiter img{
@@ -1020,11 +1022,12 @@ footer a:not(:hover) {
     #import {
         flex-direction: column-reverse;
         align-items: center;
+        padding-bottom: 11%;
     }
 
     #import img {
-        width: 70%;
-        margin-top: 2%;
+        width: 90%;
+        margin-top: 5%;
     }
 
     .divBlockCallout {
@@ -1035,11 +1038,13 @@ footer a:not(:hover) {
     #callout {
         flex-direction: column;
         align-items: center;
+        padding-bottom: 9%;
     }
 
     .calloutDivs {
         width: 80%;
         margin-top: 25px;
+        padding: 5%;
     }
 
     #features {
@@ -1051,16 +1056,36 @@ footer a:not(:hover) {
     #CYGN {
         flex-direction: column-reverse;
         align-items: center;
+        padding-bottom: 7%;
     }
 
     #YourGroupName {
         width: 80%;
         margin-top: 5%;
+        padding: 10%;
     }
 
     #bodyFooter {
         flex-direction: column-reverse;
         align-items: center;
+        text-align: center;
+    }
+
+    #StartNow h2{
+        text-align: center;
+    }
+
+    #StartNow h5{
+        margin-top: 20px;
+    }
+
+    #StartNow .inputInfo{
+        width: 90%;
+    }
+
+    #logo2{
+        width: 90%;
+        margin-left: 5%;
     }
 
     #logo1 {
@@ -1079,13 +1104,22 @@ footer a:not(:hover) {
         width: 80%;
         margin-right: 0px;
         margin-left: 0px;
-        margin-top: 2%;
+        margin-top: 9%;
+    }
+
+    #GroupInfo h4{
+        text-align: center;
+    }
+    
+    .inputInfo{
+        width: 100%;
     }
 
     #HIWF {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-bottom: 7%;
     }
 
     #butGroupCreators {
@@ -1108,6 +1142,7 @@ footer a:not(:hover) {
 
     #Punkts {
         width: 90%;
+        margin-left: 0px;
     }
     footer{
         display: flex;
@@ -1126,21 +1161,44 @@ footer a:not(:hover) {
         align-items: center;
         text-align: center;
     }
+    #butFlexibleGroup{
+        margin-left: 0px;
+    }
+    #bodyHeadH1{
+        margin-left: 0px;
+    }
+    #bodyHeadH4{
+        margin-left: 0px;
+    }
+    #GetStarted{
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+    #bodyHead{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #NeDoVisual{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 25px;
+    }
+    #CYGN .bodyOtherText{
+        text-align: center;
+    }
+    footer h3{
+        margin-top: 50px;
+    }
+    
+    footer img{
+        display: none;
+    }
+
+    footer{
+        text-align: center;
+    }
+    #footMember{
+        margin-right: 0px;
+    }
 }
-
-/*1)Паддинги в пикселях кнопки ГЕТ СТАРТ --- READY
-2)Ширину картинка пункт 1-4  пискелях (щас она в процентах)  --- 50% Reade (Номер 3 деформируется)
-3)1,2,3 должны прилипать к левому краю                  --Ready
-4)ЧУТЬ ЧУТЬ УВЕЛИЧИТТЬ ИНПУТЫ на процентов 25 (это не намек на проценты)   --Ready
-5)кнопки одинакого размера                  --Ready
-6)Фиаучерс каллаут по центру                --Ready
-7)почти футер Блок с инпутом и кнопкой      --Ready
-<div>
-display: flex;
-align-items: center;
-
-<buttont> +width
-
-
-На мобилке одинаковые отступы слева и справа
-*/
