@@ -917,7 +917,7 @@ footer a:not(:hover) {
     }
 }
 
-@media (max-width:425px) {
+@media (max-width:430px) {
 
     #headerBut {
         display: none;
@@ -1103,6 +1103,18 @@ footer a:not(:hover) {
 
     #Punkts {
         width: 90%;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #footerTop{
+        flex-direction: column;
+    }
+    #footerBot{
+        flex-direction: column;
+        align-items: center;
     }
 }
 
