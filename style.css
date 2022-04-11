@@ -33,6 +33,10 @@ h5 {
     font-weight: normal;
 }
 
+#burger{
+    display: none;
+}
+
 #header h2 {
     font-size: 24px;
 }
@@ -53,7 +57,7 @@ head {
     top: 0%;
 }
 
-#headerText {
+.headerText {
     width: 300px;
     display: flex;
     justify-content: space-between;
@@ -285,6 +289,11 @@ h1 {
     height: 48px;
     box-shadow: 0px 0px 20px 1px rgb(175, 91, 252);
 
+}
+
+
+.Punktsh6 {
+    display: none;
 }
 
 #butGroupMembers {
@@ -700,7 +709,7 @@ footer h3 {
     margin-top: 3.7%;
 }
 
-#headerText a:hover {
+.headerText a:hover {
     color: rgb(62, 215, 235);
     transition-timing-function: linear;
     transition-duration: 200ms;
@@ -709,7 +718,7 @@ footer h3 {
     /*background-color: #5488af;*/
 }
 
-#headerText a:not(:hover) {
+.headerText a:not(:hover) {
     transition-timing-function: linear;
     transition-duration: 200ms;
 }
@@ -888,7 +897,8 @@ footer a:not(:hover) {
 }
 
 /*750 px
-.Produ display: block;*//*                                                                              @Media*/
+.Produ display: block;*/
+/*                                                                              @Media*/
 
 @media (max-width:1024px) {
     #Prod {
@@ -920,6 +930,67 @@ footer a:not(:hover) {
 }
 
 @media (max-width:1024px) {
+
+    #burger{
+        display: block;
+        width: 70px;
+        height: 35px;
+    }
+
+    .burgerIco{
+        position: absolute;
+        display: block;
+        width: 35px;
+        height: 6px;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .burgerOpen_Text{
+        display: block;
+        position: fixed;
+        top:60px;
+        right: 5px;
+        height: 5%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color:rgb(101, 101, 101);
+        padding-bottom: 45px;
+        align-items: center;
+    }
+
+    #burgerOpen_But{
+        align-items: center;
+        display: block;
+        position: fixed;
+        top:138px;
+        right: 5px;
+        height: 5%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color:rgb(101, 101, 101);
+        padding-bottom: 45px;
+        padding-left: 20px;
+        padding-bottom: 55px;
+    }
+
+    #burgerOpen_But button{
+        margin-right: 19px;
+    }
+
+    .burgerIco:nth-child(1){
+        top: 11px;
+    }
+
+    .burgerIco:nth-child(2){
+        top:22px
+    }
+
+    .burgerIco:nth-child(3){
+        top: 33px;
+    }
 
     #headerBut {
         display: none;
@@ -974,8 +1045,9 @@ footer a:not(:hover) {
         text-align: center;
     }
 
-    #headerText a {
+    .headerText a {
         font-size: 18px;
+        display: none;
     }
 
     .Produ {
@@ -989,7 +1061,7 @@ footer a:not(:hover) {
         padding-right: 10%;
     }
 
-    #Prod img{
+    #Prod img {
         margin-top: 30px;
     }
 
@@ -1022,7 +1094,7 @@ footer a:not(:hover) {
         padding: 6%;
     }
 
-    #twiter img{
+    #twiter img {
         width: 25px;
         height: 25px;
     }
@@ -1079,22 +1151,22 @@ footer a:not(:hover) {
         text-align: center;
     }
 
-    #StartNow h2{
+    #StartNow h2 {
         text-align: center;
         width: 90%;
         margin-left: 5%;
         margin-bottom: 10%;
     }
 
-    #StartNow h5{
+    #StartNow h5 {
         margin-top: 20px;
     }
 
-    #StartNow .inputInfo{
+    #StartNow .inputInfo {
         width: 90%;
     }
 
-    #logo2{
+    #logo2 {
         width: 90%;
         margin-left: 5%;
     }
@@ -1118,11 +1190,11 @@ footer a:not(:hover) {
         margin-top: 9%;
     }
 
-    #GroupInfo h4{
+    #GroupInfo h4 {
         text-align: center;
     }
-    
-    .inputInfo{
+
+    .inputInfo {
         width: 100%;
     }
 
@@ -1158,70 +1230,80 @@ footer a:not(:hover) {
         margin-left: 0px;
         margin-left: 1%;
     }
-    footer{
+
+    footer {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    #footerTop{
+
+    #footerTop {
         flex-direction: column;
     }
-    #footerBot{
+
+    #footerBot {
         flex-direction: column;
         align-items: center;
     }
-    #importText{
+
+    #importText {
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
-    #butFlexibleGroup{
+
+    #butFlexibleGroup {
         margin-left: 0px;
     }
-    #bodyHeadH1{
+
+    #bodyHeadH1 {
         margin-left: 0px;
     }
-    #bodyHeadH4{
+
+    #bodyHeadH4 {
         margin-left: 0px;
         width: 90%;
     }
-    #GetStarted{
+
+    #GetStarted {
         margin-left: 0px;
         margin-top: 25px;
     }
-    #bodyHead{
+
+    #bodyHead {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    #NeDoVisual{
+
+    #NeDoVisual {
         width: 80%;
         margin-left: 10%;
         margin-top: 25px;
     }
-    #CYGN .bodyOtherText{
+
+    #CYGN .bodyOtherText {
         text-align: center;
         margin-left: 0px;
     }
-    footer h3{
+
+    footer h3 {
         margin-top: 50px;
     }
-    
-    footer img{
+
+    footer img {
         display: none;
     }
 
-    footer{
+    footer {
         text-align: center;
     }
-    #footMember{
+
+    #footMember {
         margin-right: 0px;
     }
-    #header{
+
+    #header {
         padding: 2%;
     }
-}
-
-.Punktsh6{
-    display: none;
 }

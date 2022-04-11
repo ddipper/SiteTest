@@ -1,5 +1,3 @@
-
-
 /*function MakeOthersInvisible(idselector) {
     let visibleTxt = document.getElementById('Punktsh6' + idselector)
     let txtArr = document.getElementsByClassName("Punktsh6")
@@ -63,30 +61,54 @@ function PointShow_1() {
         isVisible = false
     }
 }*/
-document.addEventListener('DOMContentLoaded', function(){
+document.addEventListener('DOMContentLoaded', function () {
     let buttons = document.querySelectorAll('.Punkts');
     let headers = document.querySelectorAll('.Punktsh6');
-    for(let i = 0;i<buttons.length;i++){
-        buttons[i].addEventListener('click',function(e){
-            let on=false;
-            let target=e.target.parentElement.nextElementSibling;
-            if(target.style.display=="none"){
-                on=false;
+    for (let i = 0; i < buttons.length; i++) {
+        buttons[i].addEventListener('click', function (e) {
+            let on = false;
+            let target = e.target.parentElement.nextElementSibling;
+            if (target.style.display == "none") {
+                on = false;
             }
-            else{
-                on=true;
+            else {
+                on = true;
             }
             for (let j = 0; j < headers.length; j++) {
                 const element = headers[j];
-                element.style="display:none";
+                element.style = "display:none";
             }
             console.log(target.style.display);
-            if(!on){
-                target.style="display:block";
+            if (!on) {
+                target.style = "display:block";
             }
-            else{
-                target.style="display:none";
+            else {
+                target.style = "display:none";
             }
         })
     }
 })
+
+
+let isVisibleBurger = false
+
+function BurgerShow() {
+    let burgerTxt = document.getElementsByClassName("burgerOpen_Text");
+    //let burgerBut = document.getElementById("burgerOpen_But");
+
+    //AddRemove();
+
+    burgerTxt.style = "display: block"
+
+    //burgerTxt.removeClass('headerText');
+    //burgerTxt.addClass('burgerOpen_Text');
+    //burgerTxt.toggleClass('headerText burgerOpen_Text');
+
+    alert("Burger делается")
+}
+
+function AddRemove() {
+    let burgerTxt = document.getElementsByClassName("burgerOpen_Text");
+    burgerTxt.removeClass('headerText');
+    burgerTxt.addClass('burgerOpen_Text');
+}
