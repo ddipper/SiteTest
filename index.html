@@ -7,7 +7,7 @@
 <link rel="shortcut icon" href="img/Memberset Logo.png" type="image/png">
 <link rel="stylesheet" type="text/css" href="media.css">
 <script src="script.js"></script>
-
+<script src="script2.js"></script>
 <head>
     <div id="header">
         <div class="header">
@@ -24,13 +24,18 @@
             <button id="SignUp">Sign up</button>
         </div>
         <div id="burger">
-            <img id="burger-img" src="img/logotype 1.png" alt="">
+            <img id="burger-img" src="img/icons8-hamburger-64.png" alt="">
         </div>
         
     </div>
 </head>
 
 <body>
+    <div class="dis-none" id="burger-cont">
+        <a href="#">Group Creators</a>
+        <a href="#">Blog</a>
+        <a href="#">Developers</a>
+    </div>
     <div id="bodyHead">
         <h1 id="bodyHeadH1">Paid Groups<br>Made Easy</h1>
         <h4 id="bodyHeadH4">Memberset is an iOS, Android and Web App<br>that lets you create and host
@@ -77,7 +82,7 @@
                     <img src="img/1.png" class="PunktsImg">
                     <h4 id="CreateText" name="txt1">Create Your Group</h4>
                 </div>
-                <h6 class="bodyOtherText Punktsh6" id="Punktsh6_1">Want to create an exclusive community? A mastermind?
+                <h6 class="bodyOtherText dis-none" name="Punktsh6">Want to create an exclusive community? A mastermind?
                     A secret
                     socienty? A
                     private meme chat? Whatever the case, Mamberset can help any community get monetized.</h6>
@@ -85,7 +90,7 @@
                     <img src="img/2.png">
                     <h4>Set Pricing</h4>
                 </div>
-                <h6 class="bodyOtherText Punktsh6" id="Punktsh6_2">Want to create an exclusive community? A mastermind?
+                <h6 class="bodyOtherText dis-none" name="Punktsh6">Want to create an exclusive community? A mastermind?
                     A secret
                     socienty? A
                     private meme chat? Whatever the case, Mamberset can help any community get monetized.</h6>
@@ -93,7 +98,7 @@
                     <img src="img/3.png">
                     <h4>Share Your Page</h4>
                 </div>
-                <h6 class="bodyOtherText Punktsh6" id="Punktsh6_3">Want to create an exclusive community? A mastermind?
+                <h6 class="bodyOtherText dis-none" name="Punktsh6">Want to create an exclusive community? A mastermind?
                     A secret
                     socienty? A
                     private meme chat? Whatever the case, Mamberset can help any community get monetized.</h6>
@@ -101,7 +106,7 @@
                     <img src="img/4.png">
                     <h4>Start Earning</h4>
                 </div>
-                <h6 class="bodyOtherText Punktsh6" id="Punktsh6_4">Want to create an exclusive community? A mastermind?
+                <h6 class="bodyOtherText dis-none" name="Punktsh6">Want to create an exclusive community? A mastermind?
                     A secret
                     socienty? A
                     private meme chat? Whatever the case, Mamberset can help any community get monetized.</h6>
@@ -142,8 +147,10 @@
             <button id="butFlexibleGroup">Flexible Groups</button>
         </div>
         <div id="calloustBlocks">
+            <a class="previous" onclick = "previousSlide2()" >&#10094;</a>
+            <a class="next" onclick = " nextSlide2() ">&#10095;</a>
             <div class="divBlockCallout">
-                <div class="calloutDivs">
+                <div class="calloutDivs" id="calloutFirst">
                     <img src="img/25 - Bag.png" class="calloutImg">
                     <h5>Automated Membership Managment</h5>
                     <h4 class="bodyOtherText">Let Memberset automate group access, subscreption changes and membership
@@ -197,7 +204,10 @@
     </div>
     <div id="amazing">
         <h2>The amazing platform</h2>
+
         <div id="amazingTwits">
+            <a class="previous" onclick="previousSlide()">&#10094;</a>
+            <a class="next" onclick="nextSlide()">&#10095;</a>
             <div class="twitsDiv">
                 <div class="twitTop">
                     <img src="img/Group 10.png">
@@ -214,7 +224,7 @@
                     <h3>@oxymiron</h3>
                 </div>
             </div>
-            <div class="twitsDiv">
+            <div class="twitsDiv" id="twitDiv3">
                 <div class="twitTop">
                     <img src="img/Group 10.png">
                     <div id="FIO">
@@ -229,7 +239,7 @@
                     <h3>@jojo228</h3>
                 </div>
             </div>
-            <div class="twitsDiv">
+            <div class="twitsDiv" id="twitDiv3">
                 <div class="twitTop">
                     <img src="img/Group 10.png">
                     <div id="FIO">
