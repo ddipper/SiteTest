@@ -87,10 +87,33 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         })
     }
+    let burgerImg = document.querySelector('#burger-img')
+    let burgerButton = document.querySelector('#burger');
+    let burgerIsActive = false;
+    burgerButton.addEventListener('click', function(){
+        let target = document.querySelector('#burger-cont');
+        
+        if(burgerIsActive == false){
+            target.classList.remove('dis-none');
+            target.classList.add('burger-cont');
+            burgerImg.src = "img/25 - Bag.png"
+            burgerIsActive = true;
+        }
+        else{
+            target.classList.remove('burger-cont');
+            target.classList.add('dis-none');
+            burgerImg.src = "img/logotype 1.png"
+            burgerIsActive = false;
+        }
+        
+    })
 })
 
 
-let isVisibleBurger = false
+
+
+
+/*let isVisibleBurger = false
 
 function BurgerShow() {
     let burgerTxt = document.getElementsByClassName("burgerOpen_Text");
@@ -111,4 +134,4 @@ function AddRemove() {
     let burgerTxt = document.getElementsByClassName("burgerOpen_Text");
     burgerTxt.removeClass('headerText');
     burgerTxt.addClass('burgerOpen_Text');
-}
+}*/

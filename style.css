@@ -33,7 +33,23 @@ h5 {
     font-weight: normal;
 }
 
-#burger {
+#burger{
+    display: none;
+}
+.burger-cont{
+    position: absolute;
+    width: 100%;
+    top: 55px;
+    text-align: center;
+    background-color: #fff;
+    display: none;
+    flex-direction: column;
+}
+.burger-cont a{
+    margin: 10px;
+    color: black;
+}
+.dis-none{
     display: none;
 }
 
@@ -348,6 +364,7 @@ h1 {
     border-width: 1px;
     border-radius: 15px 15px 15px 15px;
     width: 40%;
+    height: 200px;
     margin-right: 10%;
     padding: 3%;
     display: inline-block;
@@ -377,12 +394,16 @@ h1 {
 
 .inputInfo {
     color: 2e3a48;
-    width: 200px;
+    width: 300px;
     height: 30px;
     background-color: rgb(46, 58, 72);
     border-style: none;
     border-radius: 7px;
     padding: 1%;
+    font-size: 17px;
+    color:96a0aa;
+    margin-top: 20px;
+    padding-left: 10px;
 }
 
 #NadSSulka {
@@ -943,11 +964,20 @@ footer a:not(:hover) {
 
     #burger {
         display: block;
-        width: 70px;
-        height: 35px;
+    }
+    #burger img{
+        display: block;
+        width: 40px;
+        height: 40px;
+    }
+    .burger-cont{
+        display: flex;
+    }
+    .headerText{
+        display: none;
     }
 
-    .burgerIco {
+    .burgerIco{
         position: absolute;
         display: block;
         width: 35px;
@@ -956,49 +986,49 @@ footer a:not(:hover) {
         background-color: white;
     }
 
-    .burgerOpen_Text {
+    .burgerOpen_Text{
         display: block;
         position: fixed;
-        top: 60px;
+        top:60px;
         right: 5px;
         height: 5%;
         display: flex;
         flex-direction: column;
         text-align: center;
-        background-color: rgb(101, 101, 101);
+        background-color:rgb(101, 101, 101);
         padding-bottom: 45px;
         align-items: center;
     }
 
-    #burgerOpen_But {
+    #burgerOpen_But{
         align-items: center;
         display: block;
         position: fixed;
-        top: 138px;
+        top:138px;
         right: 5px;
         height: 5%;
         display: flex;
         flex-direction: column;
         text-align: center;
-        background-color: rgb(101, 101, 101);
+        background-color:rgb(101, 101, 101);
         padding-bottom: 45px;
         padding-left: 20px;
         padding-bottom: 55px;
     }
 
-    #burgerOpen_But button {
+    #burgerOpen_But button{
         margin-right: 19px;
     }
 
-    .burgerIco:nth-child(1) {
+    .burgerIco:nth-child(1){
         top: 11px;
     }
 
-    .burgerIco:nth-child(2) {
-        top: 22px
+    .burgerIco:nth-child(2){
+        top:22px
     }
 
-    .burgerIco:nth-child(3) {
+    .burgerIco:nth-child(3){
         top: 33px;
     }
 
@@ -1069,11 +1099,32 @@ footer a:not(:hover) {
         padding-left: 5%;
         padding-top: 5%;
         padding-right: 10%;
+        padding-bottom: 5% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #DogYourName{
+        margin-top: 15px;
+    }
+    
+    .twitsDiv hr{
+        margin-bottom: 12px;
+        margin-top: 12px;
     }
 
     #Prod img {
         margin-top: 30px;
         width: 50%;
+        display: none;
+    }
+
+
+
+    #Chat img{
+        display: none;
     }
 
     #Manage img {
@@ -1088,8 +1139,8 @@ footer a:not(:hover) {
     #butGroupCreators {
         margin: 0px;
         margin-left: 7%;
-        margin-top: 4%;
-        margin-bottom: 5%;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
 
     #HIWFdivs {
@@ -1110,8 +1161,9 @@ footer a:not(:hover) {
     }
 
     #twiter img {
-        width: 25px;
+        width: 31px;
         height: 25px;
+        margin-right: 5px;
     }
 
     #import {
@@ -1121,7 +1173,7 @@ footer a:not(:hover) {
     }
 
     #import img {
-        width: 90%;
+        width: 104%;
         margin-top: 5%;
     }
 
@@ -1160,6 +1212,9 @@ footer a:not(:hover) {
         width: 80%;
         margin-top: 5%;
         padding: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     #bodyFooter {
@@ -1208,6 +1263,9 @@ footer a:not(:hover) {
         margin-right: 0px;
         margin-left: 0px;
         margin-top: 9%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     #GroupInfo h4 {
@@ -1264,6 +1322,11 @@ footer a:not(:hover) {
     #footerBot {
         flex-direction: column;
         align-items: center;
+        margin-top: 25px    ;
+    }
+
+    #footerBot a{
+        font-size: 11pt;
     }
 
     #importText {
@@ -1329,22 +1392,29 @@ footer a:not(:hover) {
         padding: 2%;
     }
 
+    #header {
+        padding: 2%;
+    }
+    
     #vidileno1 {
         padding: 2%;
         padding-left: 3%;
         padding-right: 3%;
+        margin-right: 0px;
     }
 
     #vidileno2 {
         padding: 2%;
         padding-left: 3%;
         padding-right: 3%;
+        margin-right: 0px;
     }
 
     #vidileno3 {
         padding: 2%;
         padding-left: 3%;
         padding-right: 3%;
+        margin-right: 0px;
     }
 
     #ssulkaGroupInfo {
