@@ -1177,6 +1177,7 @@ footer a:not(:hover) {
 
     #amazingTwits .previous,
     #amazingTwits .next {
+        display: block;
         cursor: pointer;
         position: absolute;
         width: auto;
@@ -1195,6 +1196,7 @@ footer a:not(:hover) {
 
     #calloustBlocks .previous,
     #calloustBlocks .next {
+        display: block;
         cursor: pointer;
         position: absolute;
         width: auto;
