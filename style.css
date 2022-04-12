@@ -1399,6 +1399,7 @@ footer a:not(:hover) {
 
     .inputInfo {
         width: 100%;
+        margin-right: 0px;
     }
 
     #HIWF {
