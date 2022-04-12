@@ -16,7 +16,7 @@ a {
 
 #amazingTwits .previous,
 #amazingTwits .next {
-display: none;
+    display: none;
 }
 
 h3 {
@@ -1190,7 +1190,7 @@ footer a:not(:hover) {
         background-color: rgba(0, 0, 0, 0.2);
         padding-bottom: 200px;
         margin-top: 20px;
-        opacity: 0% ;
+        opacity: 0%;
     }
 
     #calloustBlocks .previous,
@@ -1209,14 +1209,14 @@ footer a:not(:hover) {
         background-color: rgba(0, 0, 0, 0.2);
         padding-bottom: 200px;
         margin-top: 20px;
-        opacity: 0% ;
+        opacity: 0%;
     }
 
-    #calloutFirst{
+    #calloutFirst {
         display: block;
     }
 
-    .calloutDivs{
+    .calloutDivs {
         display: none;
     }
 
@@ -1225,7 +1225,7 @@ footer a:not(:hover) {
         border-radius: 3px 0 0 3px;
     }
 
-    #calloustBlocks .previous{
+    #calloustBlocks .previous {
         left: 1%;
     }
 
@@ -1235,7 +1235,7 @@ footer a:not(:hover) {
     }
 
     #calloustBlocks .twitsDiv {
-        animation-name:fade;
+        animation-name: fade;
         animation-duration: 1.5s;
     }
 
@@ -1243,6 +1243,7 @@ footer a:not(:hover) {
         from {
             opacity: 0.4
         }
+
         to {
             opacity: 1
         }
@@ -1253,7 +1254,7 @@ footer a:not(:hover) {
         border-radius: 3px 0 0 3px;
     }
 
-    #amazingTwits .previous{
+    #amazingTwits .previous {
         left: 1%;
     }
 
@@ -1262,12 +1263,12 @@ footer a:not(:hover) {
         background-color: rgba(0, 0, 0, 0.2);
     }
 
-    #twitDiv3{
+    #twitDiv3 {
         display: none;
     }
 
     #amazingTwits .twitsDiv {
-        animation-name:fade;
+        animation-name: fade;
         animation-duration: 1.5s;
     }
 
@@ -1275,6 +1276,7 @@ footer a:not(:hover) {
         from {
             opacity: 0.4
         }
+
         to {
             opacity: 1
         }
@@ -1485,7 +1487,8 @@ footer a:not(:hover) {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 15%; ;
+        padding-top: 15%;
+        ;
     }
 
     #NeDoVisual {
@@ -1562,4 +1565,7 @@ footer a:not(:hover) {
         padding-bottom: 9%;
     }
 
+    #StartNow input {
+        display: none;
+    }
 }
