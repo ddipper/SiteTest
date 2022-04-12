@@ -707,7 +707,7 @@ footer h3 {
 #footMember h3 {
     font-size: 20pt;
     font-weight: bold;
-    color: black;
+    color: rgb(255, 255, 255);
     margin-bottom: 5%;
     margin-left: 5%;
 }
