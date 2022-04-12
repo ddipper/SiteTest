@@ -1558,6 +1558,7 @@ footer a:not(:hover) {
     #StartNow button {
         padding: 2%;
         width: 150px;
+        margin-left: 27%;
     }
 
     #amazing {
