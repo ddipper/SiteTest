@@ -1354,8 +1354,8 @@ footer a:not(:hover) {
 
     #StartNow h2 {
         text-align: center;
-        width: 97%;
-        margin-left: 1.5%;
+        width: 100%;
+        margin-left: 0%;
         margin-bottom: 10%;
     }
 
@@ -1472,6 +1472,7 @@ footer a:not(:hover) {
 
     #bodyHeadH1 {
         margin-left: 0px;
+        margin-bottom: 12px;
     }
 
     #bodyHeadH4 {
