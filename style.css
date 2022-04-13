@@ -60,6 +60,8 @@ h5 {
 .burger-cont a {
     margin: 10px;
     color: white;
+    font-weight: normal;
+    font-size: 17px;
 }
 
 .dis-none {
@@ -1524,12 +1526,14 @@ footer a:not(:hover) {
 
     #header {
         padding: 2%;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
     }
 
     #header {
         padding: 2%;
         position: fixed;
-        width: 98%;
+        width: 90%;
         align-items: center;
     }
 
