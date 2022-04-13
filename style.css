@@ -87,7 +87,7 @@ head {
 }
 
 .headerText {
-    width: 300px;
+    width: 350px;
     display: flex;
     justify-content: space-between;
     margin-top: 0.3%;
@@ -1354,8 +1354,8 @@ footer a:not(:hover) {
 
     #StartNow h2 {
         text-align: center;
-        width: 90%;
-        margin-left: 5%;
+        width: 97%;
+        margin-left: 1.5%;
         margin-bottom: 10%;
     }
 
@@ -1391,6 +1391,7 @@ footer a:not(:hover) {
         margin-right: 0px;
         margin-left: 0px;
         margin-top: 9%;
+        height: 160px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1493,6 +1494,7 @@ footer a:not(:hover) {
 
     #NeDoVisual {
         width: 90%;
+        
         margin-left: 5%;
         margin-top: 25px;
     }
@@ -1568,5 +1570,8 @@ footer a:not(:hover) {
 
     #StartNow input {
         display: none;
+    }
+    #YourGroupName h5{
+        text-align: center;
     }
 }
