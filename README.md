@@ -1,5 +1,4 @@
-# SiteTest
-Kakoy'to site
+# Simple website
 
 Created by ddipper ^.^
     MEMBERSET
